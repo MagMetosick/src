@@ -1,0 +1,202 @@
+/*Спецификация*/
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+p {
+  margin: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.clearfix {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+/*Первый экран*/
+header  {
+  background: url(../img/header_bg.jpg) no-repeat center top / cover;
+   height: 800px;
+}
+ 
+   
+.text1{ 
+    padding-top:370px;
+    padding-left:120px;
+    color:white;
+    font-size: 60px;
+}
+.text2{
+    padding-left:250px;
+    color:white;
+    font-size: 25px;
+}
+.muw{
+  height: 50px;
+  width: 50px;
+    padding-top:140px;
+    padding-left:600px;
+}
+.lost {
+  display: inline-block;
+  padding: 10px 70px;                    /*размер блока*/
+  border-radius: 30% / 3em;                /*закругление*/
+  background:rgba(255,69,0,.5);       /*прозрачность и цвет */
+   position: relative;
+   color: white;                    /*цвет текста*/
+  bottom:  400px;                  /*отступ с  низу*/
+  left: 500px;                     /*отступ с лева*/
+  font-size: 15px;                  /*размер шрифта*/
+}
+.block{
+   text-align:center;
+  width: 75%;
+  position: relative;
+    bottom:  140px;                  /*отступ с  низу*/
+  left: 120px;  
+   box-shadow: 0 0 10px rgba(0.0.0.1);
+  padding:10px; 
+}
+ .block1 {                          
+  background-color:white ;  /*цвет блока*/
+  float: left;
+   border-right-color: black;     /*свет бордера*/
+  border-right-style: dotted;     /*стиль бордера*/
+   width:25%;            /*ширина*/
+    height:140px;            /*высота  блока*/
+  margin: 0px;     /*отступы*/
+
+    box-sizing: border-box;             /*помещение всех блоков в одну линию без отступов*/
+}
+.block2{
+  float:left;
+    background-color:white ;  /*цвет блока*/
+    border-right-color: black;     /*свет бордера*/
+  border-right-style: dotted;     /*стиль бордера*/
+    width:25%;                /*ширина*/
+    height:140px;            /*высота  блока*/
+    margin: 0px;          /*отступы*/
+    box-sizing: border-box;            /*помещение всех блоков в одну линию без отступов*/
+}
+.block3{
+  float:left;
+   background-color:white ;  /*цвет блока*/
+   border-right-color: black;     /*свет бордера*/
+  border-right-style: dotted;     /*стиль бордера*/
+    width:25%;                 /*ширина*/
+    height:140px;            /*высота  блока*/
+    margin: 0px;        /*отступы*/
+    box-sizing: border-box;         /*помещение всех блоков в одну линию без отступов*/
+  }
+.block4{
+  float: right;
+    background-color:white ;  /*цвет блока*/
+   width:25% ;         /*ширина*/
+  height:140px;            /*высота  блока*/
+    margin: 0px;       /*отступы*/
+    box-sizing: border-box;  /*помещение всех блоков в одну линию без отступов*/
+  
+}
+.p {
+ 
+  color:red;
+  font-size: 50px;                 /*размер текста*/
+font-weight: bold;                   /*жирность текста*/
+}
+
+.abaut{
+  text-align:center;
+}
+/*фторой экран*/
+/*фон2*/
+.abautUsPicture{
+background: url(../img/header_bg1.jpg) no-repeat center top / cover;
+   height: 800px;
+   background-size: 100%;
+}
+.how{
+ position: relative;
+   color: white;                    /*цвет текста*/
+  bottom:  705px;                  /*отступ с  низу*/
+  left: 193px;                     /*отступ с лева*/
+  font-size: 45px;                  /*размер шрифта*/
+  font-weight: bold;                   /*жирность текста*/
+
+}
+.block22{
+text-align:center;
+  width: 75%;
+  position: relative;
+   bottom:  575px;                  /*отступ с  низу*/
+  left: 145px;                     /*отступ с лева*/
+ }
+.block01{
+    width:30%;            /*ширина*/
+    height:140px;            /*высота  блока*/
+    float: left;
+}
+.block02{
+    width:30%;            /*ширина*/
+    height:140px;            /*высота  блока*/
+  float: left;
+}
+.block03{
+    width:30%;            /*ширина*/
+    height:140px;            /*высота  блока*/
+  float: left;
+}
+.block04{
+    width:30%;            /*ширина*/
+    height:140px;            /*высота  блока*/
+  float: left;
+}
+.block05{
+    width:30%;            /*ширина*/
+    height:140px;            /*высота  блока*/
+  float: left;
+}
+.block06{
+    width:30%;            /*ширина*/
+    height:140px;            /*высота  блока*/
+  float: left;
+}
+.c{
+    color:orange;
+   font-size: 60px;                  /*размер шрифта*/
+  font-weight: bold;                   /*жирность текста*/
+  opacity:0.5;
+}
+.d{
+  position: relative;
+ bottom: 38px;                  /*отступ с  низу*/
+  color: white;
+  font-size: 22px;                  /*размер шрифта*/
+}
+.pricing{
+  position: relative;
+ font-size: 50px;                 /*шрифт текста*/
+ font-weight: bold;                   /*жирность текста*/
+  text-align: center;                 /*по центру*/
+ bottom:450px;
+}
+/*фоновый  экран 3*/
+.abautUsPicture3{
+background: url(../img/header_bg3.jpg) no-repeat center top / cover;
+   height: 800px;
+   background-size: 100%;
+ }
+.fon3{
+
+}
+.starting{
+
+}
+.trial{
+
+}
+.advanced{
+
+}
