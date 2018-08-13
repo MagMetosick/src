@@ -3,6 +3,19 @@
   width: 800px;
   margin: 0 auto;
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  width: 75%;
+}
 p {
   margin: 0;
 }
@@ -126,55 +139,41 @@ background: url(../img/header_bg1.jpg) no-repeat center top / cover;
   font-weight: bold;                   /*жирность текста*/
 
 }
-.block22{
-text-align:center;
-  width: 75%;
-  position: relative;
-   bottom:  575px;                  /*отступ с  низу*/
-  left: 145px;                     /*отступ с лева*/
- }
-.block01{
-    width:30%;            /*ширина*/
-    height:140px;            /*высота  блока*/
-    float: left;
+
+
+.sequencing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 600px;
+  justify-content: center;
 }
-.block02{
-    width:30%;            /*ширина*/
-    height:140px;            /*высота  блока*/
-  float: left;
+.sequencing_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  width: 30%;
+  height: 30%;
+  margin: 10px;
 }
-.block03{
-    width:30%;            /*ширина*/
-    height:140px;            /*высота  блока*/
-  float: left;
+.sequencing_item-number {
+  color: orange; /*цвет*/
+  font-size: 100px; /*размер шрифта*/
+  font-weight: bold; /*жирность текста*/
+  opacity: 0.5; /*прозрачность*/
+/*   position: relative; */
+/*   left: 15%; */
 }
-.block04{
-    width:30%;            /*ширина*/
-    height:140px;            /*высота  блока*/
-  float: left;
+.sequencing_item-desc {
+  font-size: 30px; /*размер шрифта*/
+/*   display: flex; */
+/*   position: relative; */
+  bottom: 50px;
+  text-align: center;
 }
-.block05{
-    width:30%;            /*ширина*/
-    height:140px;            /*высота  блока*/
-  float: left;
-}
-.block06{
-    width:30%;            /*ширина*/
-    height:140px;            /*высота  блока*/
-  float: left;
-}
-.c{
-    color:orange;
-   font-size: 60px;                  /*размер шрифта*/
-  font-weight: bold;                   /*жирность текста*/
-  opacity:0.5;
-}
-.d{
-  position: relative;
- bottom: 38px;                  /*отступ с  низу*/
-  color: white;
-  font-size: 22px;                  /*размер шрифта*/
-}
+
 .pricing{
   position: relative;
  font-size: 50px;                 /*шрифт текста*/
